@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using StructureMap;
 
 namespace CalendarMesh
 {
@@ -13,7 +14,8 @@ namespace CalendarMesh
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            var mainform = ObjectFactory.GetInstance<MainForm>();
+            Application.Run(mainform);
         }
     }
 }

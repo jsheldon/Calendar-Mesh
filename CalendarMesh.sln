@@ -3,6 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarMesh", "CalendarMesh\CalendarMesh.csproj", "{5ADEDD2B-A0E0-4CB7-93C9-A064077C3822}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarMesh.Data", "CalendarMesh.Data\CalendarMesh.Data.csproj", "{6627C7A6-99B9-4FC7-BBAA-EFCB0E5858E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarMesh.Tests", "CalendarMesh.Tests\CalendarMesh.Tests.csproj", "{1A77C2BB-E327-4050-9AA1-53CDB1B5F7BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarMesh.Managers", "CalendarMesh.Managers\CalendarMesh.Managers.csproj", "{BCC5B530-A514-4213-B123-90C4C9EF238F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarMesh.Ifx", "CalendarMesh.Ifx\CalendarMesh.Ifx.csproj", "{A1DB1156-AD3D-4D0A-A505-F089819E2A12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarMesh.DomainObjects", "CalendarMesh.DomainObjects\CalendarMesh.DomainObjects.csproj", "{4CC5E813-D4AE-45BF-9CFC-C430956CE47E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{59C6862A-64AC-4CF1-9C21-43B6E3A57653}"
+	ProjectSection(SolutionItems) = preProject
+		lib\DotNetOpenAuth.dll = lib\DotNetOpenAuth.dll
+		lib\Google.Apis.Authentication.OAuth2.dll = lib\Google.Apis.Authentication.OAuth2.dll
+		lib\Google.Apis.dll = lib\Google.Apis.dll
+		lib\Google.Apis.Silverlight.dll = lib\Google.Apis.Silverlight.dll
+		lib\log4net.dll = lib\log4net.dll
+		lib\Newtonsoft.Json.Net35.dll = lib\Newtonsoft.Json.Net35.dll
+		lib\Newtonsoft.Json.Silverlight.dll = lib\Newtonsoft.Json.Silverlight.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +34,26 @@ Global
 		{5ADEDD2B-A0E0-4CB7-93C9-A064077C3822}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ADEDD2B-A0E0-4CB7-93C9-A064077C3822}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ADEDD2B-A0E0-4CB7-93C9-A064077C3822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6627C7A6-99B9-4FC7-BBAA-EFCB0E5858E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6627C7A6-99B9-4FC7-BBAA-EFCB0E5858E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6627C7A6-99B9-4FC7-BBAA-EFCB0E5858E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6627C7A6-99B9-4FC7-BBAA-EFCB0E5858E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A77C2BB-E327-4050-9AA1-53CDB1B5F7BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A77C2BB-E327-4050-9AA1-53CDB1B5F7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A77C2BB-E327-4050-9AA1-53CDB1B5F7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A77C2BB-E327-4050-9AA1-53CDB1B5F7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC5B530-A514-4213-B123-90C4C9EF238F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC5B530-A514-4213-B123-90C4C9EF238F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC5B530-A514-4213-B123-90C4C9EF238F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC5B530-A514-4213-B123-90C4C9EF238F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1DB1156-AD3D-4D0A-A505-F089819E2A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1DB1156-AD3D-4D0A-A505-F089819E2A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1DB1156-AD3D-4D0A-A505-F089819E2A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1DB1156-AD3D-4D0A-A505-F089819E2A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC5E813-D4AE-45BF-9CFC-C430956CE47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC5E813-D4AE-45BF-9CFC-C430956CE47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC5E813-D4AE-45BF-9CFC-C430956CE47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC5E813-D4AE-45BF-9CFC-C430956CE47E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
